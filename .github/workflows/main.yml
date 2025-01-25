@@ -11,7 +11,8 @@ jobs:
     - name: Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: linux.simplyit.xyz:2082
+        # server:  linux.simplyit.xyz:2082
+        server: 116.203.226.245
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
   
