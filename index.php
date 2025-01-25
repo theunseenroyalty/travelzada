@@ -1,9 +1,18 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Home</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta charset="utf-8">
-<meta name="keywords" content="" />
+    <title>TravelZada - Book Travel Packages & Create Memories</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="description" content="TravelZada offers the best travel packages to create unforgettable memories. Book your next adventure with us!">
+    <meta name="keywords" content="travel, book, packages, memories">
+    <meta property="og:title" content="TravelZada - Book Travel Packages & Create Memories">
+    <meta property="og:description" content="TravelZada offers the best travel packages to create unforgettable memories. Book your next adventure with us!">
+    <meta property="og:url" content="https://www.travelzada.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.travelzada.com/images/logo.png">
+    <link rel="canonical" href="https://www.travelzada.com/">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
 
     <script>
         addEventListener("load", function () {
@@ -14,20 +23,19 @@
             window.scrollTo(0, 1);
         }
     </script>
-	
-	<!-- css files -->
+    
+    <!-- css files -->
     <link href="css/bootstrap.css" rel='stylesheet' type='text/css' /><!-- bootstrap css -->
     <link href="css/style.css" rel='stylesheet' type='text/css' /><!-- custom css -->
     <link href="css/font-awesome.min.css" rel="stylesheet"><!-- fontawesome css -->
-	<!-- //css files -->
-	
-	<link href="css/css_slider.css" type="text/css" rel="stylesheet" media="all">
+    <!-- //css files -->
+    
+    <link href="css/css_slider.css" type="text/css" rel="stylesheet" media="all">
+    <!-- google fonts -->
+    <!--<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <!-- //google fonts -->
 
-	<!-- google fonts
-	<!--<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-	<link href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-	<!-- //google fonts -->
-	
 </head>
 <body>
 
@@ -134,7 +142,7 @@
 				</p>
 			</div>
 			<div class="col-lg-6 about-right text-lg-right mt-lg-0 mt-5">
-				<img src="images/about.jpg" alt="" class="img-fluid abt-image" />
+				<img src="images/about.jpg" alt="About TravelZada" class="img-fluid abt-image" />
 			</div>
 		</div>
 		<div class="row mt-5 text-center">
@@ -379,8 +387,14 @@
 </section>
 <!-- destinations -->
 
+
+<!-- Add cache headers for images and CSS -->
+<?php
+header("Cache-Control: max-age=31536000, public");
+header("Pragma: cache");
+?>
+
 <?php include 'footer.php'; ?>
 
-	
 </body>
 </html>
