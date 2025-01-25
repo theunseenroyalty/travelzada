@@ -13,6 +13,7 @@
     <meta property="og:image" content="https://www.travelzada.com/images/logo.png">
     <link rel="canonical" href="https://www.travelzada.com/">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
     <script>
         addEventListener("load", function () {
             setTimeout(hideURLbar, 0);
@@ -34,6 +35,7 @@
     <!--<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <!-- //google fonts -->
+
 </head>
 <body>
 
@@ -41,23 +43,84 @@
 
 <!-- banner -->
 <section class="banner_w3lspvt" id="home">
-    <div class="csslider infinity" id="slider1">
-        <input type="radio" name="slides" checked="checked" id="slides_1" />
-        <input type="radio" name="slides" id="slides_2" />
-        <input type="radio" name="slides" id="slides_3" />
-        <input type="radio" name="slides" id="slides_4" />
-        <ul>
-            <li>
-                <div class="banner-top">
-                    <div class="banner-info">
-                        <h3>Explore the World with TravelZada</h3>
-                        <p>Book your travel packages and create unforgettable memories.</p>
-                    </div>
-                </div>
-            </li>
-            <!-- Add more slides as needed -->
-        </ul>
-    </div>
+	<div class="csslider infinity" id="slider1">
+		<input type="radio" name="slides" checked="checked" id="slides_1" />
+		<input type="radio" name="slides" id="slides_2" />
+		<input type="radio" name="slides" id="slides_3" />
+		<input type="radio" name="slides" id="slides_4" />
+		<ul>
+			<li>
+				<div class="banner-top">
+					<div class="overlay">
+						<div class="container">
+							<div class="w3layouts-banner-info">
+								<h3 class="text-wh">Never let your memories be greater than your dreams.</h3>
+								<h4 class="text-wh">Travel Zada, Khusiya Zada</h4>
+								<div class="buttons mt-4">
+									<a href="about" class="btn mr-2">About Us</a>
+									<a href="booking" class="btn">Enquire Now</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="banner-top1">
+					<div class="overlay">
+						<div class="container">
+							<div class="w3layouts-banner-info">
+								<h3 class="text-wh">It is better to travel than to arrive. Let's Be Adventurers.</h3>
+								<h4 class="text-wh">Travel Zada, Khusiya Zada</h4>
+								<div class="buttons mt-4">
+									<a href="about" class="btn mr-2">About Us</a>
+									<a href="booking" class="btn">Enquire Now</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="banner-top2">
+					<div class="overlay">
+						<div class="container">
+							<div class="w3layouts-banner-info">
+								<h3 class="text-wh">Never let your memories be greater than your dreams.</h3>
+								<h4 class="text-wh">Travel Zada, Khusiya Zada</h4>
+								<div class="buttons mt-4">
+									<a href="about" class="btn mr-2">About Us</a>
+									<a href="booking" class="btn">Enquire Now</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li>
+				<div class="banner-top3">
+					<div class="overlay1">
+						<div class="container">
+							<div class="w3layouts-banner-info">
+								<h3 class="text-wh">It is better to travel than to arrive. Let's Be Adventurers.</h3>
+								<h4 class="text-wh">Travel Zada, Khusiya Zada</h4>
+								<div class="buttons mt-4">
+									<a href="about" class="btn mr-2">About Us</a>
+									<a href="booking" class="btn">Enquire Now</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+		<div class="arrows">
+			<label for="slides_1"></label>
+			<label for="slides_2"></label>
+			<label for="slides_3"></label>
+			<label for="slides_4"></label>
+		</div>
+	</div>
 </section>
 <!-- //banner -->
 
@@ -323,6 +386,7 @@
 	</div>
 </section>
 <!-- destinations -->
+
 
 <!-- Add cache headers for images and CSS -->
 <?php

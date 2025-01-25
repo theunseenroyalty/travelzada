@@ -1,0 +1,20 @@
+on: push
+name: Deploy website on push
+jobs: 
+  web-deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: Get latest code
+      uses: actions/checkout@v3
+
+    - name: Sync files
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      with:
+        # server:  linux.simplyit.xyz:2082
+        server: 116.203.226.245
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        server-dir: public_html/
+        git-ftp-args: "--syncroot ./ --all"
+        delete: false

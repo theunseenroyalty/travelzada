@@ -22,3 +22,4 @@ RewriteRule ^services$ services.php [L]
 
 # Custom error document
 ErrorDocument 404 /404.php
+
