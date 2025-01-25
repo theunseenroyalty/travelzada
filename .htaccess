@@ -19,3 +19,6 @@ RewriteRule ^packages$ packages.php [L]
 
 # Rewrite rule for booking.php
 RewriteRule ^services$ services.php [L]
+
+# Custom error document
+ErrorDocument 404 /404.php

@@ -1,10 +1,18 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Home</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta charset="utf-8">
-<meta name="keywords" content="" />
-
+    <title>TravelZada - Book Travel Packages & Create Memories</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="description" content="TravelZada offers the best travel packages to create unforgettable memories. Book your next adventure with us!">
+    <meta name="keywords" content="travel, book, packages, memories">
+    <meta property="og:title" content="TravelZada - Book Travel Packages & Create Memories">
+    <meta property="og:description" content="TravelZada offers the best travel packages to create unforgettable memories. Book your next adventure with us!">
+    <meta property="og:url" content="https://www.travelzada.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.travelzada.com/images/logo.png">
+    <link rel="canonical" href="https://www.travelzada.com/">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <script>
         addEventListener("load", function () {
             setTimeout(hideURLbar, 0);
@@ -14,20 +22,18 @@
             window.scrollTo(0, 1);
         }
     </script>
-	
-	<!-- css files -->
+    
+    <!-- css files -->
     <link href="css/bootstrap.css" rel='stylesheet' type='text/css' /><!-- bootstrap css -->
     <link href="css/style.css" rel='stylesheet' type='text/css' /><!-- custom css -->
     <link href="css/font-awesome.min.css" rel="stylesheet"><!-- fontawesome css -->
-	<!-- //css files -->
-	
-	<link href="css/css_slider.css" type="text/css" rel="stylesheet" media="all">
-
-	<!-- google fonts
-	<!--<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
-	<link href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
-	<!-- //google fonts -->
-	
+    <!-- //css files -->
+    
+    <link href="css/css_slider.css" type="text/css" rel="stylesheet" media="all">
+    <!-- google fonts -->
+    <!--<link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <!-- //google fonts -->
 </head>
 <body>
 
@@ -35,84 +41,23 @@
 
 <!-- banner -->
 <section class="banner_w3lspvt" id="home">
-	<div class="csslider infinity" id="slider1">
-		<input type="radio" name="slides" checked="checked" id="slides_1" />
-		<input type="radio" name="slides" id="slides_2" />
-		<input type="radio" name="slides" id="slides_3" />
-		<input type="radio" name="slides" id="slides_4" />
-		<ul>
-			<li>
-				<div class="banner-top">
-					<div class="overlay">
-						<div class="container">
-							<div class="w3layouts-banner-info">
-								<h3 class="text-wh">Never let your memories be greater than your dreams.</h3>
-								<h4 class="text-wh">Travel Zada, Khusiya Zada</h4>
-								<div class="buttons mt-4">
-									<a href="about" class="btn mr-2">About Us</a>
-									<a href="booking" class="btn">Enquire Now</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="banner-top1">
-					<div class="overlay">
-						<div class="container">
-							<div class="w3layouts-banner-info">
-								<h3 class="text-wh">It is better to travel than to arrive. Let's Be Adventurers.</h3>
-								<h4 class="text-wh">Travel Zada, Khusiya Zada</h4>
-								<div class="buttons mt-4">
-									<a href="about" class="btn mr-2">About Us</a>
-									<a href="booking" class="btn">Enquire Now</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="banner-top2">
-					<div class="overlay">
-						<div class="container">
-							<div class="w3layouts-banner-info">
-								<h3 class="text-wh">Never let your memories be greater than your dreams.</h3>
-								<h4 class="text-wh">Travel Zada, Khusiya Zada</h4>
-								<div class="buttons mt-4">
-									<a href="about" class="btn mr-2">About Us</a>
-									<a href="booking" class="btn">Enquire Now</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li>
-				<div class="banner-top3">
-					<div class="overlay1">
-						<div class="container">
-							<div class="w3layouts-banner-info">
-								<h3 class="text-wh">It is better to travel than to arrive. Let's Be Adventurers.</h3>
-								<h4 class="text-wh">Travel Zada, Khusiya Zada</h4>
-								<div class="buttons mt-4">
-									<a href="about" class="btn mr-2">About Us</a>
-									<a href="booking" class="btn">Enquire Now</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</li>
-		</ul>
-		<div class="arrows">
-			<label for="slides_1"></label>
-			<label for="slides_2"></label>
-			<label for="slides_3"></label>
-			<label for="slides_4"></label>
-		</div>
-	</div>
+    <div class="csslider infinity" id="slider1">
+        <input type="radio" name="slides" checked="checked" id="slides_1" />
+        <input type="radio" name="slides" id="slides_2" />
+        <input type="radio" name="slides" id="slides_3" />
+        <input type="radio" name="slides" id="slides_4" />
+        <ul>
+            <li>
+                <div class="banner-top">
+                    <div class="banner-info">
+                        <h3>Explore the World with TravelZada</h3>
+                        <p>Book your travel packages and create unforgettable memories.</p>
+                    </div>
+                </div>
+            </li>
+            <!-- Add more slides as needed -->
+        </ul>
+    </div>
 </section>
 <!-- //banner -->
 
@@ -134,7 +79,7 @@
 				</p>
 			</div>
 			<div class="col-lg-6 about-right text-lg-right mt-lg-0 mt-5">
-				<img src="images/about.jpg" alt="" class="img-fluid abt-image" />
+				<img src="images/about.jpg" alt="About TravelZada" class="img-fluid abt-image" />
 			</div>
 		</div>
 		<div class="row mt-5 text-center">
@@ -379,8 +324,13 @@
 </section>
 <!-- destinations -->
 
+<!-- Add cache headers for images and CSS -->
+<?php
+header("Cache-Control: max-age=31536000, public");
+header("Pragma: cache");
+?>
+
 <?php include 'footer.php'; ?>
 
-	
 </body>
 </html>
