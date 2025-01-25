@@ -15,4 +15,6 @@ jobs:
         server: 116.203.226.245
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
-  
+        server-dir: public_html
+        git-ftp-args: "--syncroot ./ --all"
+        delete: false
