@@ -1,5 +1,5 @@
 on: push
-name: Deply website on push
+name: Deploy website on push
 jobs: 
   web-deploy:
     name: Deploy
@@ -11,7 +11,7 @@ jobs:
     - name: Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: linux:simplyit.xyz
+        server: linux.simplyit.xyz:2082
         username: ${{ secrets.FTP_USERNAME }}
         password: ${{ secrets.FTP_PASSWORD }}
   
