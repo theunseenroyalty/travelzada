@@ -1,0 +1,21 @@
+AddHandler application/x-httpd-php80 .php
+# Enable the RewriteEngine
+RewriteEngine On
+
+# Rewrite rule for index.php
+RewriteRule ^index$ index.php [L]
+
+# Rewrite rule for booking.php
+RewriteRule ^about$ about.php [L]
+
+# Rewrite rule for booking.php
+RewriteRule ^booking$ booking.php [L]
+
+# Rewrite rule for booking.php
+RewriteRule ^contact$ contact.php [L]
+
+# Rewrite rule for booking.php
+RewriteRule ^packages$ packages.php [L]
+
+# Rewrite rule for booking.php
+RewriteRule ^services$ services.php [L]
