@@ -7,7 +7,7 @@
 				<h1 class="mt-md-0 mt-2"> 
 					<a href="index">
 						<!--<span class="fa fa-map-signs"></span> -->
-						<img src="logo.png" width="150px">
+						<img src="images/logo.png" width="150px">
 						<!---NSEEN ROYALTY -->
 					</a>
 				</h1>

@@ -12,7 +12,7 @@
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://www.travelzada.com/images/logo.png">
     <link rel="canonical" href="https://www.travelzada.com/">
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://www.travelzada.com/images/logo.png" type="image/x-icon">
 
     <script>
         addEventListener("load", function () {
@@ -386,13 +386,6 @@
 	</div>
 </section>
 <!-- destinations -->
-
-
-<!-- Add cache headers for images and CSS -->
-<?php
-header("Cache-Control: max-age=31536000, public");
-header("Pragma: cache");
-?>
 
 <?php include 'footer.php'; ?>
 
