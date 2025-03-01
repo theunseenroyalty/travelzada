@@ -84,10 +84,11 @@ if ( $_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['book_now']) ) {
 
 <html lang="en">
 <head>
-<title>Booking</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta charset="utf-8">
-<meta name="keywords" content="" />
+	<?php include 'head.php'; ?>
+	<title>Booking</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content="" />
 
     <script>
         addEventListener("load", function () {
