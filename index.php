@@ -55,7 +55,7 @@
 						<div class="container">
 							<div class="w3layouts-banner-info">
 								<h3 class="text-wh">Never let your memories be greater than your dreams.</h3>
-								<h4 class="text-wh">Travel Zada, Khusiya Zada</h4>
+								<h4 class="text-wh">Travel Zada, Khushiyan Zada</h4>
 								<div class="buttons mt-4">
 									<a href="about" class="btn mr-2">About Us</a>
 									<a href="booking" class="btn">Enquire Now</a>
@@ -71,7 +71,7 @@
 						<div class="container">
 							<div class="w3layouts-banner-info">
 								<h3 class="text-wh">It is better to travel than to arrive. Let's Be Adventurers.</h3>
-								<h4 class="text-wh">Travel Zada, Khusiya Zada</h4>
+								<h4 class="text-wh">Travel Zada, Khushiyan Zada</h4>
 								<div class="buttons mt-4">
 									<a href="about" class="btn mr-2">About Us</a>
 									<a href="booking" class="btn">Enquire Now</a>
@@ -87,7 +87,7 @@
 						<div class="container">
 							<div class="w3layouts-banner-info">
 								<h3 class="text-wh">Never let your memories be greater than your dreams.</h3>
-								<h4 class="text-wh">Travel Zada, Khusiya Zada</h4>
+								<h4 class="text-wh">Travel Zada, Khushiyan Zada</h4>
 								<div class="buttons mt-4">
 									<a href="about" class="btn mr-2">About Us</a>
 									<a href="booking" class="btn">Enquire Now</a>
@@ -103,7 +103,7 @@
 						<div class="container">
 							<div class="w3layouts-banner-info">
 								<h3 class="text-wh">It is better to travel than to arrive. Let's Be Adventurers.</h3>
-								<h4 class="text-wh">Travel Zada, Khusiya Zada</h4>
+								<h4 class="text-wh">Travel Zada, Khushiyan Zada</h4>
 								<div class="buttons mt-4">
 									<a href="about" class="btn mr-2">About Us</a>
 									<a href="booking" class="btn">Enquire Now</a>
