@@ -237,7 +237,7 @@
 						<li><span class="fa fa-tags mr-2"></span>Starting From: <span>INR 24,999</span></li>
 					</ul>
 					<div class="view-package text-center mt-4">
-						<a href="booking">Book Now</a>
+						<a href="<a href="details.php?package_id=Singapore">Book Now</a>
 					</div>
 				</div>
 			</div>
@@ -255,7 +255,7 @@
 						<li><span class="fa fa-tags mr-2"></span>Starting From: <span>INR 21,999</span></li>
 					</ul>
 					<div class="view-package text-center mt-4">
-						<a href="booking">Book Now</a>
+						<a href="details.php?package_id=Singapore">Book Now</a>
 					</div>
 				</div>
 			</div>
@@ -273,7 +273,7 @@
 						<li><span class="fa fa-tags mr-2"></span>Starting From: <span>INR 11,999</span></li>
 					</ul>
 					<div class="view-package text-center mt-4">
-						<a href="booking">Book Now</a>
+						<a href="details.php?package_id=Singapore">Book Now</a>
 					</div>
 				</div>
 			</div>
@@ -291,7 +291,7 @@
 						<li><span class="fa fa-tags mr-2"></span>Starting From: <span>INR 9,999</span></li>
 					</ul>
 					<div class="view-package text-center mt-4">
-						<a href="booking">Book Now</a>
+						<a href="details.php?package_id=Singapore">Book Now</a>
 					</div>
 				</div>
 			</div>
@@ -311,7 +311,7 @@
 				<h4 class="tittle">Enjoy The Trip</h4>
 				<p class="mt-3">Embrace every moment of your journey! Explore new places, savor local flavors, and immerse yourself in the culture. Capture memories, try new activities, and meet new people. Relax, unwind, and let the adventure rejuvenate your spirit. Enjoy every bit of your trip to the fullest!</p>
 				<div class="text-left mt-4">
-						<a href="booking">Book Now</a>
+						<a href="details.php?package_id=Singapore">Book Now</a>
 				</div>
 			</div>
 		</div>
@@ -343,7 +343,7 @@
 				<div class="destinations-info">
 					<div class="caption mb-lg-3">
 						<h4>Kashmir</h4>
-						<a href="booking">Book Now</a>
+						<a href="details.php?package_id=Singapore">Book Now</a>
 					</div>
 				</div>
 			</div>
@@ -355,7 +355,7 @@
 				<div class="destinations-info">
 					<div class="caption mb-lg-3">
 						<h4>Thailand</h4>
-						<a href="booking">Book Now</a>
+						<a href="details.php?package_id=Singapore">Book Now</a>
 					</div>
 				</div>
 			</div>
@@ -367,7 +367,7 @@
 				<div class="destinations-info">
 					<div class="caption mb-lg-3">
 						<h4>Sikkim</h4>
-						<a href="booking">Book Now</a>
+						<a href="details.php?package_id=Singapore">Book Now</a>
 					</div>
 				</div>
 			</div>
@@ -379,7 +379,7 @@
 				<div class="destinations-info">
 					<div class="caption mb-lg-3">
 						<h4>Dubai</h4>
-						<a href="booking">Book Now</a>
+						<a href="details.php?package_id=Singapore">Book Now</a>
 					</div>
 				</div>
 			</div>
